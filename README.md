@@ -99,6 +99,7 @@ const [isLiked, setIsLiked] = useState(false)
   
 ## 環境変数を用いたい
   .envファイルを作成（アプリのフォルダ直下）
+  
   注意　expressの時と違い、process.env.の使用に何かをインストールもインポートもする必要はない。（expressの時はdotenvをインストールしていた。）
 ```app.js
   //jsファイルで使いたい時
