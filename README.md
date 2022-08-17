@@ -82,3 +82,17 @@ axiosは自作のAPIを叩ける便利なライブラリ。フロント側のフ
 npm i axios
 ```
 
+## useStateについて
+const [変数、変数の状態を変更することができる関数] = useState(変数の初期値)
+
+注意：importを忘れないように！
+
+変数likeの値の状況を変更できる。
+
+```app.js
+import React, { useState } from 'react'
+
+//いいね
+const [like, setLike] = useState(post.like)
+const [isLiked, setIsLiked] = useState(false)
+```
