@@ -2,7 +2,7 @@
 Reactのアウトプットの場所
 
 
-## react-router-dom
+## react-router-domインストール
 
 fonrtのreactアプリディレクトリで以下コマンドを叩く
 ```
