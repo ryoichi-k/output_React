@@ -87,7 +87,7 @@ const [変数、変数の状態を変更することができる関数] = useSta
 
 注意：importを忘れないように！
 
-変数likeの値の状況を変更できる。
+変数likeの値の状況をsetLikeを使って変更できる。
 
 ```app.js
 import React, { useState } from 'react'
