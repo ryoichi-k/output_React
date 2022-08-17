@@ -33,3 +33,32 @@ package.jsonで確認
     "web-vitals": "^2.1.4"
   },
 ```
+
+App.jsでreact-router-domをインポートする。基本的に以下を入れておくとよい。→App.jsでURLによってコンポーネントを切り替えるイメージ
+```app.js
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+    Link,
+    Redirect,
+    Navigate,
+  } from "react-router-dom";
+```
+
+```app.js
+function App() {
+    return(
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/profile/:username" element={<Profile />} />
+            </Routes>
+        </Router>
+    )
+}
+```
+
+
