@@ -61,4 +61,17 @@ function App() {
 }
 ```
 
+## Linkコンポーネントを使っての画面遷移
+<Link>コンポーネントのtoで遷移先のURL。styleでcss設定可能。下記例ではリンクの紫色と下線を黒色で下線なしに変更している。
+  SNSのロゴを押せばホームに遷移
+
+```app.jsx
+import { Link } from 'react-router-dom';
+
+
+<Link to="/" style={{ textDecoration: "none", color: "black" }}>
+   <span className="logo">SNS</span>
+</Link>
+```
+
 
