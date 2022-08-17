@@ -1,6 +1,8 @@
 # output_React
 Reactのアウトプットの場所
 
+※注意：.envファイルを変更した場合は一度サーバーを終了してnpm startで再度立ち上げる必要がある。
+
 
 ## react-router-domインストール
 
