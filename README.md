@@ -81,7 +81,31 @@ axiosは自作のAPIを叩ける便利なライブラリ。フロント側のフ
 ```
 npm i axios
 ```
-
+axios導入後のpackage.json
+  ```json
+  "name": "sns-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.0",
+    "@mui/styled-engine-sc": "^5.10.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+  },
+  ```
+  
+  
 ## useStateについて
 const [変数、変数の状態を変更することができる関数] = useState(変数の初期値)
 
