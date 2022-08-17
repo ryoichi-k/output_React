@@ -76,4 +76,9 @@ import { Link } from 'react-router-dom';
 </Link>
 ```
 
+## axios導入
+axiosは自作のAPIを叩ける便利なライブラリ。フロント側のフォルダで以下のコマンドでインストールする。
+```
+npm i axios
+```
 
